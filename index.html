@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[Bài tập] Hồ sơ thông tin cá nhân</title>
+  </head>
+  <body>
+    <h1>Hồ sơ thông tin cá nhân</h1>
+    <form action="">
+      <fieldset>
+        <legend>Thông tin cá nhân</legend>
+        <label for="ten">Tên: </label>
+        <input
+          type="text"
+          id="ten"
+          name="info"
+          placeholder="Nhập họ và tên..."
+        />
+        <br />
+        <label for="bd">Ngày sinh: </label>
+        <input type="date" id="bd" value="bd" />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Thông tin liên hệ</legend>
+        <label for="Email">Email: </label>
+        <input
+          type="text"
+          id="Email"
+          name="contact"
+          placeholder="example@email.com"
+        />
+        <br />
+        <br />
+        <label for="num">Số điện thoại: </label>
+        <input type="text" id="num" name="contact" placeholder="0123456789" />
+      </fieldset>
+      <form class="form-group">
+        <label for="ex-info">Ghi chú bổ sung:</label><br />
+        <textarea
+          name=""
+          id="ex-info"
+          placeholder="Nhập ghi chú của bạn tại đây..."
+        ></textarea>
+      </form>
+      <div class="form-group">
+        <button type="submit">lưu hồ sơ</button>
+      </div>
+    </form>
+  </body>
+</html>
